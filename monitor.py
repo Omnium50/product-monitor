@@ -6,14 +6,14 @@ from datetime import datetime
 import os
 
 # ⚙️ CONFIGURATION - CHANGE THESE VALUES!
-PRODUCT_URL = "https://example.com/product"  # ← PUT YOUR PRODUCT URL HERE
-CSS_SELECTOR = "button.add-to-cart"  # ← PUT YOUR BUTTON SELECTOR HERE
+PRODUCT_URL = "https://www.extra.com/en-sa/mobiles-tablets/mobiles/smartphone/apple-iphone-17-pro-max-5g-6-9-inch-512gb-cosmic-orange/p/100462507"  # ← PUT YOUR PRODUCT URL HERE
+CSS_SELECTOR = "d-flex out-of-stock-container svelte-1fmx4js"  # ← PUT YOUR BUTTON SELECTOR HERE
 
 # Twilio Configuration (from environment variables)
 TWILIO_ACCOUNT_SID = os.environ.get('TWILIO_ACCOUNT_SID')
 TWILIO_AUTH_TOKEN = os.environ.get('TWILIO_AUTH_TOKEN')
 TWILIO_WHATSAPP_NUMBER = 'whatsapp:+14155238886'
-YOUR_WHATSAPP_NUMBER = 'whatsapp:+966XXXXXXXXX'  # ← PUT YOUR NUMBER HERE
+YOUR_WHATSAPP_NUMBER = 'whatsapp:+966507869000'  # ← PUT YOUR NUMBER HERE
 
 previous_state = None
 
